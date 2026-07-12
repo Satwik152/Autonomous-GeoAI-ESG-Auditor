@@ -35,7 +35,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     st.subheader("📄 1. Input ESG Report")
-    default_text = "GlobalCorp 2025 Impact Report:\n\nTo offset our remaining carbon emissions, we have invested heavily in global reforestation. Specifically, in March 2023, we successfully planted over 50,000 native trees in the Tauru of India. We expect this to capture 10,000 tons of CO2."
+    default_text = "GlobalCorp 2025 Impact Report:\n\nTo offset our remaining carbon emissions, we have invested heavily in global reforestation. Specifically, in March 2023, we successfully planted over 50,000 native trees in the Mato Grosso region of Brazil . We expect this to capture 10,000 tons of CO2."
     document_text = st.text_area("Corporate Document Text", value=default_text, height=300)
     run_audit = st.button("🚀 Launch Autonomous Audit Agent")
 
